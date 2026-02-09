@@ -5,7 +5,7 @@ import os
 # Configure Gemini API
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-model = genai.GenerativeModel("models/gemini-2.5-flash")
+model = genai.GenerativeModel("models/Gemini 2.5 Pro")
 
 st.set_page_config(page_title="My AI Chatbot", page_icon="🤖")
 st.title("🤖 My AI Chatbot")
